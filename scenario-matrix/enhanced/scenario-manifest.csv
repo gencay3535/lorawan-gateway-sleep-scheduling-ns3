@@ -1,0 +1,9 @@
+id,label,nodes,radius,period,sim_hours,runs,plot_dir
+s1_near_baseline,Near baseline,20,2000,30,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s1_near_baseline
+s2_mid_baseline,Mid baseline,30,5000,30,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s2_mid_baseline
+s3_mid_dense,Mid dense,60,5000,30,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s3_mid_dense
+s4_mid_long_period,Mid dense long period,60,5000,60,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s4_mid_long_period
+s5_far_moderate,Far moderate load,80,7500,20,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s5_far_moderate
+s6_far_dense,Far dense load,120,10000,10,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s6_far_dense
+s7_operating_limit,Operating limit,160,10000,10,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s7_operating_limit
+s8_extreme_limit,Extreme operating limit,320,10000,5,6,"1,2,3,4,5",/mnt/c/Users/Monster/Desktop/505/project/ns-3-dev/scenario-matrix/enhanced/plots-s8_extreme_limit
