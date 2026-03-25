@@ -55,6 +55,10 @@ python3 scripts/run-gateway-scenario-matrix.py \
   --output-root scenario-matrix
 ```
 
+Plot generation requires Python plotting dependencies, including `matplotlib`. If you only need CSV
+outputs, the simulations can still complete without those packages, but PNG figures will not be
+generated. The Docker environment included in this repository provides the plotting dependencies.
+
 ## Recommended Paper Scenarios
 
 The strongest scenarios for reporting are:
