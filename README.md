@@ -30,9 +30,12 @@ The study is implemented primarily in:
 Build once:
 
 ```bash
-./ns3 configure
+./ns3 configure --enable-examples
 ./ns3 build
 ```
+
+Note: `lorawan-gateway-sleep-energy-example` is an ns-3 example target, so a fresh clone must be
+configured with examples enabled before `./ns3 run ...` can resolve it.
 
 Run a single study scenario:
 
