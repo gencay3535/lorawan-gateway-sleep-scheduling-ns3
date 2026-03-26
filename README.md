@@ -43,6 +43,15 @@ Run a single study scenario:
 ./ns3 run "lorawan-gateway-sleep-energy-example --nDevices=30 --radius=5000 --periodMinutes=30 --slotSpacing=0 --seed=1 --run=1 --outCsv=gateway-energy-results.csv"
 ```
 
+If `./ns3 configure` or `./ns3 build` reports that `CMakeCache.txt` was created from a different
+source directory, clear the stale build state and reconfigure:
+
+```bash
+rm -rf cmake-cache build
+./ns3 configure --enable-examples
+./ns3 build
+```
+
 Run the enhanced curated scenario matrix:
 
 ```bash
